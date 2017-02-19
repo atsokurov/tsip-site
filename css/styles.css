@@ -1,0 +1,209 @@
+/* Header */
+#header {
+	border: 4px double black;
+	background-color: #AAFFFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#header-logo {
+	width: 300px;
+	height: 200px;
+}
+#header-logo img {
+	width: inherit;
+	height: inherit;
+}
+
+/* Header login form */
+#header-login {
+	text-align: center;
+	padding: 0;
+	margin: 0 10px;
+}
+
+.header-form {
+	border: 1px solid green;
+	padding: 5px;
+}
+
+/* Header label */
+#header-label {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+/* User credentials in user page */
+.user-credentials {
+	float: left;
+	width: 33%;
+}
+
+/* Form credentials: left and right side */
+.credentials-left, .credentials-right {
+	text-align: left;
+	float: left;
+	margin: 10px 0;
+}
+
+/* Form credentials: left side */
+.credentials-left {
+	width: 40%;
+}
+
+/* Form credentials: right side */
+.credentials-right {
+	width: 60%;
+}
+
+.account-item-name {
+	cursor: default;
+	width: 75%;
+	float: left;
+   background-color: rgba(255, 250, 170, 0.2);
+   padding: 10px;
+	border: 1px solid #21516d;
+   margin: 5px 0;
+}
+
+.account-item-attach {
+	cursor: default;
+   width: 20%;
+   float: left;
+   background-color: rgb(255, 254, 238);
+   color: rgba(78, 14, 14, 0.99);
+   text-align: center;
+   font-family: monospace;
+   font-size: 16px;
+   padding: 10px;
+	border: 1px solid black;
+   margin: 5px 10px;
+}
+.account-item-attach:hover {
+	color: white;
+   background-color: rgba(87, 109, 0, 0.62)
+}
+
+/* Site form */
+.form {
+	width: 300px;
+	text-align: center;
+	color: #abcdef;
+	border: 1px solid green;
+}
+
+/* Input and button */
+.input, .input-error, .button {
+	width: 90%;
+	height: 30px;
+	border: 1px solid green;
+	padding: 2px 10px 2px 15px;
+	font-family: Tahoma;
+	font-size: 16px;
+	margin: 2px;
+}
+
+/* Input green shadow */
+.input {
+	box-shadow: 3px 3px 3px 0px rgba(0, 105, 0, 0.65);
+}
+
+/* Input red shadow during user input error */
+.input-error {
+    box-shadow: 3px 3px 3px 0px rgba(99, 5, 5, 0.93);
+    border: 2px solid red;
+}
+
+/* Button without any text decoration */
+.button {
+	text-decoration: none;
+	cursor: default;
+}
+
+input::webkit-input-placeholder,
+input::moz-placeholder,
+input:-ms-input-placeholder,
+input:-moz-placeholder {
+	color: green;
+	font-size: 14px;
+}
+
+/* form wrapper */
+.form-wrapper {
+	text-align: center;
+}
+
+.label, .text {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
+.text {
+	font-size: 14px;
+}
+
+.form-required-field {
+	font-size: 14px; 
+	color: red;
+}
+
+/* Fieldset with credentials */
+.credentials {
+	
+}
+
+#footer {
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	border: 1px solid black;
+	width: 100%;
+	height: 100px;
+}
+
+.footer-elem {
+	width: 350px;
+	height: 150px;
+	padding: 30px;
+	border: 2px solid green;
+	border-radius: 25px;
+}
+
+/* TODO: fix normal flex grow on footer */
+.foooter-elem:nth-of-type(1) {
+	flex-grow: 1;
+}
+
+.foooter-elem:nth-of-type(2) {
+	flex-grow: 2;
+}
+
+/* Flex paragraph */
+.footer-paragraph {
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+.article-header {
+	font-family: Arial;
+	font-size: 16px;
+	color: #FF88FF;
+}
+
+.index-paragraph {
+	font-family: Arial;
+	font-size: 16px;
+	color: #55FF00;
+}
