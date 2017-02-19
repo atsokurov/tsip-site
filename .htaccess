@@ -1,0 +1,24 @@
+AddDefaultCharset Windows-1251
+
+RewriteEngine on
+
+# `site.com/500`
+RewriteRule ^500(\.php)?$	500.php	[L]
+
+# `site.com/accounts`
+RewriteRule	^accounts(.*)?$	accounts.php	[L]
+
+# `site.com/account_create`
+RewriteRule	^account_create(.*)?$	account_create.php	[L]
+
+# `site.com/login`
+RewriteRule ^login(.*)?$	login.php	[L]
+
+# `site.com/rest`
+RewriteRule ^rest(.*)?$	rest.php	[L]
+
+# `site.com/register`
+RewriteRule	^register(.*)?$	register.php	[L]
+
+# `site.com/userpage`
+RewriteRule ^userpage(.*)?$	userpage.php	[L]
